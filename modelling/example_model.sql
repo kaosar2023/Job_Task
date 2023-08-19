@@ -15,4 +15,4 @@ CREATE TABLE student_attendance_dataset_new AS
 SELECT School_code, School_name,  2011,	2012,	2013,	2014,	2015,	2016,	2017,	2018,	2019,	2021,	2022
 FROM student_attendance_dataset;
 
-RENAME TABLE student_attendance_dataset_new TO student_attendance_dataset;
+ALTER TABLE student_attendance_dataset_new RENAME TO student_attendance_dataset;
